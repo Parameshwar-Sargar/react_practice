@@ -4,16 +4,23 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Demo from './Demo.jsx'
 import Test from "./Test.jsx"
-import copyComponent from "./copyComponent.jsx"
+// import copyComponent from "./copyComponent.jsx"
+import Hiii from "./welcome.jsx"
+import User from './User.jsx'
+
 
 function App() {
  
   return (
    <div>
-<h1>This is the main component</h1>
+{/* <h1>This is the main component</h1> */}
 {/* <Demo/> */}
 {/* <Test/> */}
-<copyComponent/>
+{/* <copyComponent/> */}
+{/* <Hiii/> */}
+
+<User/>
+
    </div>
   )
 
