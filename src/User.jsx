@@ -2,19 +2,20 @@ import React from 'react'
 
 import { useState } from 'react';
 
-function User({name, role}) {
+function User() {
 
 const [count , setCount] = useState(0);
+const [incValue , setincValue] = useState(0);
 
 const handelchange = ()=>{
-    setCount(count+1)
+    setCount(count+incValue);
 }
 
 
   return (
     <div>
-        <h1>This is User Component</h1>
-        <input type="text" />
+        <h1>Count : { count}</h1>
+       <input type="number" value={incValue} onChange={(e)=>setincValue (Number(e.target.value))}  />
         <button onClick={handelchange}> Click for increse</button>
     </div>
   )

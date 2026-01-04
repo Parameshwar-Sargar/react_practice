@@ -7,6 +7,7 @@ import Test from "./Test.jsx"
 // import copyComponent from "./copyComponent.jsx"
 import Hiii from "./welcome.jsx"
 import User from './User.jsx'
+import ClickCounter from './ClickCounter.jsx'
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
 {/* <Hiii/> */}
 
 <User/>
+{/* 
+<ClickCounter tittle="ClickCounter"/> */}
 
    </div>
   )
